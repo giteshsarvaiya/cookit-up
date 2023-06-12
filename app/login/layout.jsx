@@ -6,22 +6,11 @@ export const metadata = {
     title: "Login Page",
   };
   
-const LoginLayout = ( {children} ) => {
+const LoginLayout = ({children}) => {
   return (
-
-    <html lang='en'>
-    <body>
-    <NavLoginPage />
-        <div className='main'>
-          <div className='gradient' />
-        </div>
-
-        <main className='app'>
-          {children}
-        </main>
-    </body>
-  </html>
-   
+    <div>
+      <NavLoginPage />
+    </div>
   )
 }
 
