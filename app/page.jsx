@@ -1,7 +1,8 @@
 import Feed from '@components/Feed';
 import { Nav } from '@components/Nav';
+import RecipeCard from '@components/RecipeCard';
 
-const isUserLoggedIn = false;
+const isUserLoggedIn = true;
 
 const Home = () => {
   return(
@@ -11,6 +12,7 @@ const Home = () => {
     {isUserLoggedIn ? (<div>
       <a href='/' className='share_recipeBtn'>Recipe</a>
       <Feed />
+      <RecipeCard />
       </div>
     ): (
       <div>
