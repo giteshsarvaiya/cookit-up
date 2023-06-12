@@ -1,7 +1,7 @@
 import Feed from '@components/Feed';
 import { Nav } from '@components/Nav';
 
-const isUserLoggedIn = true;
+const isUserLoggedIn = false;
 
 const Home = () => {
   return(

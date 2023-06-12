@@ -6,7 +6,7 @@ import {useState, useEffect} from 'react';
 // import {signIn, singOut, useSession, getProvider} from "next-auth/react";
 
 
- export const isUserLoggedIn = true;
+ export const isUserLoggedIn = false;
 
 const Nav = () => {
 
@@ -27,7 +27,7 @@ const Nav = () => {
                 </Link>
                 </div>
             ): (
-                <Link href="/login">
+                <Link href="./login">
                     <button
                     type="button"
                     className="black_btn">Login</button>
