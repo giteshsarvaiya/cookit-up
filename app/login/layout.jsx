@@ -8,9 +8,10 @@ export const metadata = {
   
 const LoginLayout = ({children}) => {
   return (
+
     <html lang='en'>
     <body>
-    <NavLoginPage/>
+    <NavLoginPage />
         <div className='main'>
           <div className='gradient' />
         </div>
@@ -20,8 +21,7 @@ const LoginLayout = ({children}) => {
         </main>
     </body>
   </html>
-  )
+);
 }
 
 export default LoginLayout;
-

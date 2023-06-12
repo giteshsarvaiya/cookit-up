@@ -27,7 +27,7 @@ const Nav = () => {
                 </Link>
                 </div>
             ): (
-                <Link href="/login">
+                <Link href="./login">
                     <button
                     type="button"
                     className="black_btn">Login</button>
